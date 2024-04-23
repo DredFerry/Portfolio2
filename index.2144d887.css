@@ -1,0 +1,93 @@
+.pg3 {
+  perspective: 1000px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  top: 250%;
+}
+
+.pg3 h2 {
+  color: #fff;
+  font-family: halium, sans-serif;
+  font-size: 2rem;
+  position: absolute;
+}
+
+.pros {
+  transform-origin: bottom;
+  filter: drop-shadow(0 25px 20px #000);
+  width: 20%;
+  height: 30%;
+}
+
+#pro1 {
+  transition: all .5s ease-in-out;
+  transform: rotateX(83deg)rotateY(35deg)translateX(10%)translateY(0%)translateZ(5rem);
+}
+
+#pro2 {
+  transition: all .5s ease-in-out;
+  transform: rotateX(83deg)translateY(100%);
+}
+
+#pro3 {
+  transition: all .5s ease-in-out;
+  transform: rotateX(83deg)rotateY(-35deg)translateX(-10%)translateZ(5rem);
+}
+
+.pros img {
+  width: 100%;
+  height: 100%;
+}
+
+.desc {
+  color: #fff;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  position: absolute;
+  top: 100%;
+}
+
+.gHub {
+  background: url("github_alt_icon.9b0877cd.svg") no-repeat;
+  width: 7%;
+  height: 100%;
+}
+
+#pro1:hover, #pro2:hover, #pro3:hover {
+  cursor: pointer;
+  transform: rotateX(8deg);
+}
+
+@media (width <= 1000px) {
+  .pg3 {
+    flex-direction: column;
+  }
+
+  .pros {
+    width: 50%;
+    height: 20%;
+  }
+
+  .pg3 h2 {
+    top: 10%;
+  }
+
+  #pro1 {
+    transform: rotateX(60deg)translateY(100%);
+  }
+
+  #pro2 {
+    transform: rotateX(70deg)translateY(100%);
+  }
+
+  #pro3 {
+    transform: rotateX(80deg)translateY(100%);
+  }
+}
+/*# sourceMappingURL=index.2144d887.css.map */

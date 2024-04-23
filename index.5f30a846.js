@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".ham"),t=document.querySelector(".close"),n=document.querySelector("nav ul"),i=document.getElementById("navBar");e.addEventListener("click",function(){setTimeout(function(){n.style.visibility="visible"},600),e.style.display="none",t.style.display="block",i.style.height="40vh"}),t.addEventListener("click",function(){n.style.visibility="hidden",t.style.display="none",e.style.display="block",i.style.height="0vh"})});
+//# sourceMappingURL=index.5f30a846.js.map
